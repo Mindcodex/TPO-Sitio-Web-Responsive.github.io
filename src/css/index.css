@@ -44,7 +44,7 @@ body {
   --h1-sm: 2.25rem;
   --h2-sm: 1.5rem;
   --h3-sm: 1rem
-  /* padding */
+  /* padding */;
   --padding-sm: 1em;
   --padding-md: 2em;
   --padding-lg: 3em;
@@ -67,7 +67,8 @@ body {
   background-color: #0ea5e9;
   position: absolute;
   border-radius: 100%;
-  filter: blur(210px);
+  -webkit-filter: blur(210px);
+          filter: blur(210px);
   right: 0em;
   z-index: -2;
 }
@@ -807,7 +808,6 @@ iframe{
     display: flex;
     justify-content: space-between;
     height: auto;
-    margin-top: 2em;
   }
   .app__header__nav__cta{
     display: flex;
