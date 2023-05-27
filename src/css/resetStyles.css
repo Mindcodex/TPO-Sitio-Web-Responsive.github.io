@@ -12,7 +12,7 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+  --negro: #ececec;
   /* Tipografía */
   --tipo-principal: Helvetica, Arial, sans-serif;
   --tipo-secundaria: Verdana;
@@ -140,9 +140,6 @@ button,
 label {
   font-family: inherit;
   font-size: inherit;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   background-color: transparent;
   color: inherit;
   display: block;
@@ -181,9 +178,6 @@ body {
   /* opcional */
   line-height: 1.4em;
   /* opcional */
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   /* opcional */
   font-smooth: always;
   /* opcional */
