@@ -256,7 +256,7 @@ body {
 }
 .app__main__start {
   width: 100%;
-  height: 50vh;
+  height: 20vh;
   align-items: center;
   padding: 0 var(--padding-lg);
   margin: var(--margin-box-md) 0;
@@ -282,12 +282,24 @@ body {
 .app__main__presentation .img {
   width: 600px;
   height: 429px;
-  background: url(../../assets/imgs/DataGraphica.png);
-  background-size: contain;
-  position: absolute;
+  background-size: cover;
+  position: relative;
   right: 0em;
   z-index: -1;
+  border-radius: 1em;
 }
+.img--app{
+  background: url('../../assets/imgs/DataGraphica.png');
+}
+.img--grafazul{
+  background: url('../../assets/imgs/foto-grafico-azul.avif');
+ 
+}
+.img--pizarra{
+  background-size: cover;
+  background: url('../../assets/imgs/foto-hombre-pizarra.jpg');
+}
+
 #readMore{
   text-decoration: underline;
 }
@@ -584,13 +596,15 @@ iframe{
   .map-form-wrapper{
     display: block;
   }
+  .app__main__start{
+    margin-bottom: 15em ;
+  }
 
 
 }
 
 @media screen and (max-width: 768px) {
   .title {
-    margin-top: 1em;
     font-size: 2.25em;
   }
   .subtitle{
@@ -616,6 +630,9 @@ iframe{
   }
   .app__header__cta{
     display: none;
+  }
+  .app__main__start{
+    margin-bottom: 20em ;
   }
   .app__main__cta .btn{
     margin: 1em 0;
@@ -868,6 +885,9 @@ iframe{
   }
   .app__main{
     overflow: hidden;
+  }
+  .app__main__start{
+    margin-bottom: 25em ;
   }
   .app__header__nav img{
     display: block;
